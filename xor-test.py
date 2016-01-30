@@ -2,7 +2,7 @@ from Net import Net
 import random
 
 
-def xorTest():
+if __name__ == "__main__":
 
     # Conf of the net
     config = [2, 3, 3, 1]
@@ -34,4 +34,3 @@ def xorTest():
         resultVals = nn.getResults()
         print resultVals
         print "========="
-xorTest()
